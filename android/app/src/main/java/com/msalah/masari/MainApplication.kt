@@ -1,4 +1,4 @@
-package com.tadbir
+package com.msalah.masari
 
 import android.app.Application
 import com.facebook.react.PackageList

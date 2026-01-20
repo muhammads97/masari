@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		6A8B8815E2DB418E7A9ADB40 /* libPods-Tadbir.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F925D6E74036F703711B79 /* libPods-Tadbir.a */; };
+		6A8B8815E2DB418E7A9ADB40 /* libPods-Masari.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F925D6E74036F703711B79 /* libPods-Masari.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		F571B3882BD7A3F80014213C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F571B3872BD7A3F80014213C /* PrivacyInfo.xcprivacy */; };
 		F5DC7AB12D9D8A92004DB744 /* AppDelegade.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DC7AB02D9D8A92004DB744 /* AppDelegade.swift */; };
@@ -20,23 +20,23 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Tadbir;
+			remoteInfo = "Masari";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* TadbirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TadbirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		123CE870962A5F52DEB959B2 /* Pods-Tadbir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tadbir.release.xcconfig"; path = "Target Support Files/Pods-Tadbir/Pods-Tadbir.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Tadbir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tadbir.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Tadbir/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tadbir/Info.plist; sourceTree = "<group>"; };
-		34625E75AEE813A48E176AF9 /* Pods-Tadbir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tadbir.debug.xcconfig"; path = "Target Support Files/Pods-Tadbir/Pods-Tadbir.debug.xcconfig"; sourceTree = "<group>"; };
-		41F925D6E74036F703711B79 /* libPods-Tadbir.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tadbir.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Tadbir/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* MasariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MasariTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		123CE870962A5F52DEB959B2 /* Pods-Masari.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Masari.release.xcconfig"; path = "Target Support Files/Pods-Masari/Pods-Masari.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Masari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Masari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Masari/Images.xcassets"; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Masari/Info.plist"; sourceTree = "<group>"; };
+		34625E75AEE813A48E176AF9 /* Pods-Masari.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Masari.debug.xcconfig"; path = "Target Support Files/Pods-Masari/Pods-Masari.debug.xcconfig"; sourceTree = "<group>"; };
+		41F925D6E74036F703711B79 /* libPods-Masari.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Masari.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "Masari/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F571B3872BD7A3F80014213C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		F5DC7AB02D9D8A92004DB744 /* AppDelegade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegade.swift; sourceTree = "<group>"; };
-		F5DC7AB22D9D8AA1004DB744 /* Tadbir-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tadbir-Bridging-Header.h"; sourceTree = "<group>"; };
+		F5DC7AB22D9D8AA1004DB744 /* Masari-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Masari-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,14 +51,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A8B8815E2DB418E7A9ADB40 /* libPods-Tadbir.a in Frameworks */,
+				6A8B8815E2DB418E7A9ADB40 /* libPods-Masari.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13B07FAE1A68108700A75B9A /* Tadbir */ = {
+		13B07FAE1A68108700A75B9A /* Masari */ = {
 			isa = PBXGroup;
 			children = (
 				F5DC7AB02D9D8A92004DB744 /* AppDelegade.swift */,
@@ -66,16 +66,16 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
-				F5DC7AB22D9D8AA1004DB744 /* Tadbir-Bridging-Header.h */,
+				F5DC7AB22D9D8AA1004DB744 /* Masari-Bridging-Header.h */,
 			);
-			name = Tadbir;
+			name = "Masari";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				41F925D6E74036F703711B79 /* libPods-Tadbir.a */,
+				41F925D6E74036F703711B79 /* libPods-Masari.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -90,7 +90,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* Tadbir */,
+				13B07FAE1A68108700A75B9A /* Masari */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
@@ -104,8 +104,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Tadbir.app */,
-				00E356EE1AD99517003FC87E /* TadbirTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Masari.app */,
+				00E356EE1AD99517003FC87E /* MasariTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,8 +113,8 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				34625E75AEE813A48E176AF9 /* Pods-Tadbir.debug.xcconfig */,
-				123CE870962A5F52DEB959B2 /* Pods-Tadbir.release.xcconfig */,
+				34625E75AEE813A48E176AF9 /* Pods-Masari.debug.xcconfig */,
+				123CE870962A5F52DEB959B2 /* Pods-Masari.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -122,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* TadbirTests */ = {
+		00E356ED1AD99517003FC87E /* MasariTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TadbirTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MasariTests" */;
 			buildPhases = (
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
@@ -135,14 +135,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = TadbirTests;
-			productName = TadbirTests;
-			productReference = 00E356EE1AD99517003FC87E /* TadbirTests.xctest */;
+			name = "MasariTests";
+			productname = "MasariTests";
+			productReference = 00E356EE1AD99517003FC87E /* MasariTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Tadbir */ = {
+		13B07F861A680F5B00A75B9A /* Masari */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Tadbir" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Masari" */;
 			buildPhases = (
 				FF91D502BB80610F448F21D9 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -157,9 +157,9 @@
 			);
 			dependencies = (
 			);
-			name = Tadbir;
-			productName = Tadbir;
-			productReference = 13B07F961A680F5B00A75B9A /* Tadbir.app */;
+			name = "Masari";
+			productName = "Masari";
+			productReference = 13B07F961A680F5B00A75B9A /* Masari.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -179,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Tadbir" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Masari" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -192,8 +192,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Tadbir */,
-				00E356ED1AD99517003FC87E /* TadbirTests */,
+				13B07F861A680F5B00A75B9A /* Masari */,
+				00E356ED1AD99517003FC87E /* MasariTests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,15 +241,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Tadbir/Pods-Tadbir-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Masari/Pods-Masari-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Tadbir/Pods-Tadbir-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Masari/Pods-Masari-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tadbir/Pods-Tadbir-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Masari/Pods-Masari-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B62916F824A540865C895387 /* [CP] Embed Pods Frameworks */ = {
@@ -258,15 +258,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Tadbir/Pods-Tadbir-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Masari/Pods-Masari-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Tadbir/Pods-Tadbir-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Masari/Pods-Masari-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tadbir/Pods-Tadbir-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Masari/Pods-Masari-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -303,7 +303,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Tadbir-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Masari-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -333,7 +333,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Tadbir */;
+			target = 13B07F861A680F5B00A75B9A /* Masari */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -347,7 +347,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = TadbirTests/Info.plist;
+				INFOPLIST_FILE = "MasariTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -359,9 +359,9 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msalah.masari";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tadbir.app/Tadbir";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Masari.app/Masari";
 			};
 			name = Debug;
 		};
@@ -370,7 +370,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = TadbirTests/Info.plist;
+				INFOPLIST_FILE = "MasariTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -382,22 +382,23 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msalah.masari";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tadbir.app/Tadbir";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Masari.app/Masari";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34625E75AEE813A48E176AF9 /* Pods-Tadbir.debug.xcconfig */;
+			baseConfigurationReference = 34625E75AEE813A48E176AF9 /* Pods-Masari.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HH673SN3QR;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Tadbir/Info.plist;
+				INFOPLIST_FILE = "Masari/Info.plist";
+             INFOPLIST_KEY_CFBundleDisplayName = "Masari";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -408,10 +409,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msalah.masari";
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = tcm.app.tadbir;
-				PRODUCT_NAME = Tadbir;
-				SWIFT_OBJC_BRIDGING_HEADER = "Tadbir-Bridging-Header.h";
+				PRODUCT_NAME = "Masari";
+				SWIFT_OBJC_BRIDGING_HEADER = "Masari-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -420,13 +421,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 123CE870962A5F52DEB959B2 /* Pods-Tadbir.release.xcconfig */;
+			baseConfigurationReference = 123CE870962A5F52DEB959B2 /* Pods-Masari.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HH673SN3QR;
-				INFOPLIST_FILE = Tadbir/Info.plist;
+				INFOPLIST_FILE = "Masari/Info.plist";
+             INFOPLIST_KEY_CFBundleDisplayName = "Masari";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,9 +439,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Tadbir;
-				SWIFT_OBJC_BRIDGING_HEADER = "Tadbir-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msalah.masari";
+				PRODUCT_NAME = "Masari";
+				SWIFT_OBJC_BRIDGING_HEADER = "Masari-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -613,7 +615,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TadbirTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MasariTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -622,7 +624,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Tadbir" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Masari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -631,7 +633,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Tadbir" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Masari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
