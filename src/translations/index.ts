@@ -8,7 +8,7 @@ import { initReactI18next } from 'react-i18next';
 import en from './en-EN.json';
 import fr from './fr-FR.json';
 
-export const defaultNS = 'tadbir';
+export const defaultNS = 'masari';
 
 export const resources = {
   'en-EN': en,

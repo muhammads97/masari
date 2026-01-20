@@ -1,14 +1,21 @@
 {
-  "tadbir": {
+  "masari": {
     "common_appName": {
-      "full": "Tadbir React Native",
-      "initials": "RNB"
+      "full": "Masari",
+      "uppercase": "MASARI",
+      "initials": "M"
     },
     "common_error": "Quelque chose s'est mal passé.",
     "screen_example": {
       "hello_user": "Salut, je m'appelle {{name}}",
       "title": "Bienvenue sur Le $t(common_appName.full)",
       "description": "Vous voulez découvrir des fonctionnalités ? Cliquez sur l'un des trois boutons en bas de l'écran. Le premier vous permet d'appeler une API REST. Le deuxième de changer la couleur du thème. Et le troisième de changer la langue"
+    },
+    "screen_auth": {
+      "welcome": "Welcome",
+      "prompt": "Enter your email to get started!",
+      "button": "Get started",
+      "agreement": "By clicking Continue, you agree to our <terms>Terms of Service</terms> and <privacy>Privacy Policy</privacy>."
     },
     "error_boundary": {
       "title": "Oups ! Quelque chose s'est mal passé.",
