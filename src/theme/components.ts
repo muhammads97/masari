@@ -34,6 +34,12 @@ const generateComponentStyles = ({
       borderWidth: 1,
       borderColor: colors.borderLight,
       fontSize: 14
+    },
+    primaryButton: {
+      ...backgrounds.primary,
+      borderRadius: 8,
+      width: "100%",
+      height: 40,
     }
   } as const satisfies AllStyle;
 };
