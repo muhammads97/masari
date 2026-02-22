@@ -17,6 +17,52 @@
       "button": "Get started",
       "agreement": "By clicking Continue, you agree to our <terms>Terms of Service</terms> and <privacy>Privacy Policy</privacy>."
     },
+    "screen_auth_verify": {
+      "prompt": "Enter the code sent to<br/><email>{{email}}</email>",
+      "resend_in_text": "Didn't receive an email?<resend> resend in {{timer}}..</resend><br/><back>Or enter another email</back>",
+      "resend_text": "Didn't receive an email? <resend>resend.</resend><br/><back>Or enter another email</back>",
+      "button": "Log in"
+    },
+    "screen_history": {
+      "expense_class": {
+        "groceries": "Groceries",
+        "delivery": "Delivery",
+        "eating_out": "Eating Out",
+        "public_transport": "Public Transport",
+        "fuel": "Fuel",
+        "parking": "Parking",
+        "entertainment": "Entertainment",
+        "fitness": "Fitness",
+        "hobbies": "Hobbies",
+        "clothing": "Clothing",
+        "toiletries": "Toiletries",
+        "household_items": "Household Items",
+        "furniture": "Furniture",
+        "rent": "Rent",
+        "electricity": "Electricity",
+        "water": "Water",
+        "gas": "Gas",
+        "internet": "Internet",
+        "mobile": "Mobile",
+        "medicine": "Medicine",
+        "medical_visit": "Medical Visit",
+        "insurance": "Insurance",
+        "health_insurance": "Health Insurance",
+        "taxes": "Taxes",
+        "fees": "Fees",
+        "travel": "Travel",
+        "gifts": "Gifts",
+        "donations": "Donations",
+        "misc": "Miscellaneous"
+      },
+      "expense_category": {
+        "foodAtHome": "Food At Home",
+        "outdoor": "Outdoor",
+        "homeAndPersonal": "Home And Personal",
+        "others": "Others"
+      },
+      "empty": "No records found for this month."
+    },
     "error_boundary": {
       "title": "Oops! Something went wrong.",
       "description": "We are sorry for the inconvenience. Please try again later.",

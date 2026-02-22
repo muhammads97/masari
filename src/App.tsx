@@ -1,5 +1,5 @@
 import 'react-native-gesture-handler';
-
+import 'react-native-get-random-values';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { MMKV } from 'react-native-mmkv';
@@ -7,8 +7,8 @@ import { MMKV } from 'react-native-mmkv';
 import ApplicationNavigator from '@/navigation/Application';
 import { ThemeProvider } from '@/theme';
 import '@/translations';
-import { useAuthStore } from './auth/authStore';
 import { useEffect } from 'react';
+import { migrate } from './database/db';
 
 export const queryClient = new QueryClient({
   defaultOptions: {
@@ -24,6 +24,9 @@ export const queryClient = new QueryClient({
 export const storage = new MMKV();
 
 function App() {
+  useEffect(() => {
+    migrate();
+  }, []);
   return (
     <GestureHandlerRootView>
       <QueryClientProvider client={queryClient}>

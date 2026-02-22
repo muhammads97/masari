@@ -1,10 +1,12 @@
 import { useMutation } from '@tanstack/react-query';
 import { AuthApi } from './authApi';
-import { error } from 'console';
-import { useEffect } from 'react';
+import { StackNavigationProp } from '@react-navigation/stack';
+import { AuthStackParamList } from '@/navigation/types';
+import { Paths } from '@/navigation/paths';
 
 type UseAuthParams = {
   email: string;
+  navigation: StackNavigationProp<AuthStackParamList, Paths.Auth, undefined>;
 };
 
 type UseAuthReturnType = {
@@ -13,14 +15,14 @@ type UseAuthReturnType = {
   isSuccess: boolean;
 };
 
-export function useAuth({ email }: UseAuthParams): UseAuthReturnType {
-  const { mutate, isPending, isSuccess, isError, isIdle, error } = useMutation({
+export function useAuth({
+  email,
+  navigation,
+}: UseAuthParams): UseAuthReturnType {
+  const { mutate, isPending, isSuccess } = useMutation({
     mutationFn: (email: string) => AuthApi.auth(email),
+    onSuccess: () => navigation.navigate(Paths.AuthVerify, { email }),
   });
-
-  useEffect(() => {
-    console.log(error);
-  }, [error]);
 
   const authenticate = () => {
     mutate(email);

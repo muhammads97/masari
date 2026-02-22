@@ -1,25 +1,14 @@
 import type { RootScreenProps } from '@/navigation/types';
-import { ActivityIndicator, View } from 'react-native';
+import { View } from 'react-native';
 
 import { Paths } from '@/navigation/paths';
 import { useTheme } from '@/theme';
 
 import { AssetByVariant } from '@/components/atoms';
 import { SafeScreen } from '@/components/templates';
-import { useAuthStore } from '@/auth/authStore';
-import { useEffect, useRef } from 'react';
 
-function Startup({ }: RootScreenProps<Paths.Startup>) {
-  const { gutters, layout } = useTheme();
-  const restore = useAuthStore((s) => s.restore)
-  
-  const hasRestored = useRef(false)
-
-  useEffect(() => {
-    if (hasRestored.current) return
-    hasRestored.current = true
-    restore()
-  }, [restore])
+function Startup({}: RootScreenProps<Paths.Startup>) {
+  const { layout } = useTheme();
 
   return (
     <SafeScreen>

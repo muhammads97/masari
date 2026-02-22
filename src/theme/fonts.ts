@@ -33,8 +33,17 @@ export const staticFontStyles = {
   alignCenter: {
     textAlign: 'center',
   },
+  light: {
+    fontWeight: 'light',
+  },
   bold: {
     fontWeight: 'bold',
+  },
+  semibold: {
+    fontWeight: 'semibold',
+  },
+  medium: {
+    fontWeight: 'medium',
   },
   capitalize: {
     textTransform: 'capitalize',

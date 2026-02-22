@@ -20,8 +20,8 @@ const colorsLight = {
   success: '#16A34A',
   error: '#DC2626',
   warning: '#FACC15',
-  info: '#0EA5E9'
-} as const
+  info: '#0EA5E9',
+} as const;
 
 const colorsDark = {
   primary: '#1E7F5C',
@@ -37,10 +37,10 @@ const colorsDark = {
   success: '#16A34A',
   error: '#DC2626',
   warning: '#FACC15',
-  info: '#0EA5E9'
+  info: '#0EA5E9',
 } as const;
 
-const sizes = [12, 14, 16, 24, 32, 40, 42, 70, 80] as const;
+const sizes = [4, 8, 10, 12, 14, 16, 18, 20, 24, 32, 40, 42, 70, 80] as const;
 
 export const config = {
   backgrounds: colorsLight,

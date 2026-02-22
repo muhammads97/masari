@@ -1,64 +1,55 @@
-import { create } from 'zustand'
-import { persist, createJSONStorage } from 'zustand/middleware'
-import AsyncStorage from '@react-native-async-storage/async-storage'
-import type { AuthStatus, User } from './types'
+import { create } from 'zustand';
+import { persist, createJSONStorage } from 'zustand/middleware';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import type { AuthStatus } from './types';
+import { Session } from '@/hooks/domain/auth/schema';
 
 type AuthState = {
-  status: AuthStatus
-  user: User | null
+  status: AuthStatus;
+  session: Session | null;
 
-  setUser: (user: User) => void
-  clearUser: () => void
-  restore: () => Promise<void>
-}
+  setSession: (session: Session) => void;
+  clearSession: () => void;
+};
 
 export const useAuthStore = create<AuthState>()(
   persist(
-    (set, get) => ({
+    (set) => ({
       status: 'loading',
-      user: null,
+      session: null,
 
-      setUser: (user) => {
+      setSession: (session) =>
         set({
-          user,
+          session,
           status: 'authenticated',
-        })
-      },
+        }),
 
-      clearUser: () => {
+      clearSession: () =>
         set({
-          user: null,
+          session: null,
           status: 'unauthenticated',
-        })
-      },
-
-      restore: async () => {
-        const { user } = get()
-
-        if (user) {
-          set({ status: 'authenticated' })
-        } else {
-          set({ status: 'unauthenticated' })
-        }
-      },
+        }),
     }),
     {
       name: 'auth-storage',
       storage: createJSONStorage(() => AsyncStorage),
 
-      // Persist only what matters
       partialize: (state) => ({
-        user: state.user,
+        session: state.session,
       }),
 
-      // Prevent hydration flicker
       onRehydrateStorage: () => (state) => {
-        if (state?.user) {
-          state.status = 'authenticated'
-        } else if(state) {
-          state.status = 'unauthenticated'
-        }
+        if (!state) return;
+
+        // ⬇ capture set via store API
+        const setState = useAuthStore.setState;
+
+        setTimeout(() => {
+          setState({
+            status: state.session ? 'authenticated' : 'unauthenticated',
+          });
+        });
       },
-    }
-  )
-)
+    },
+  ),
+);

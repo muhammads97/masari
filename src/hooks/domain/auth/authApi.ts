@@ -1,14 +1,25 @@
 import { api } from '@/services/instance';
+import { Session, sessionSchema } from './schema';
 
 export const AuthApi = {
   auth: async (email: string) => {
-    console.log(api.getUri());
     const response = await api.post('/webhook/auth', {
       email,
     });
 
-    console.log(response);
-
     return response.data;
+  },
+  authVerify: async (email: string, code: string): Promise<Session> => {
+    const response = await api.post('/webhook/auth-verify', {
+      email,
+      code,
+    });
+    return sessionSchema.parse(response.data);
+  },
+  authRefresh: async (refreshToken: string): Promise<Session> => {
+    const response = await api.post('/webhook/auth-refresh', {
+      refreshToken,
+    });
+    return sessionSchema.parse(response.data);
   },
 };

@@ -23,15 +23,7 @@ function Auth({ navigation }: Props) {
 
   const [email, setEmail] = useState('');
 
-  const { authenticate, isLoading, isSuccess } = useAuth({ email });
-
-  useEffect(() => {
-    if (isSuccess) {
-      navigation.navigate(Paths.AuthVerify, {
-        email,
-      });
-    }
-  }, [isSuccess, email, navigation]);
+  const { authenticate, isLoading } = useAuth({ email, navigation });
 
   const isButtonDisabled = !email || isLoading;
 
@@ -84,6 +76,8 @@ function Auth({ navigation }: Props) {
             autoCapitalize="none"
             keyboardType="email-address"
             value={email}
+            autoCorrect={false}
+            autoComplete={'email'}
             onChangeText={setEmail}
             editable={!isLoading}
           />
