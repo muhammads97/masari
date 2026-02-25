@@ -6,7 +6,6 @@ export const AuthApi = {
     const response = await api.post('/webhook/auth', {
       email,
     });
-
     return response.data;
   },
   authVerify: async (email: string, code: string): Promise<Session> => {
