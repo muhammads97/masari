@@ -1,10 +1,10 @@
 #!/bin/sh
 
-set -e
+# Install Node, CocoaPods, and yarn using Homebrew.
+brew install node
+brew install cocoapods
+brew install yarn
 
-echo "Installing JS deps"
-corepack enable
-yarn install --frozen-lockfile
-
-echo "Installing pods"
+# Install dependencies
+yarn
 yarn pod-install
